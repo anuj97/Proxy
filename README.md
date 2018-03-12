@@ -48,15 +48,9 @@ To manually change your Proxy settings, follow these steps:
 # Windows
 
 Setting up proxy in windows:
-
-1 Open Settings.Click Network & Internet.
-
-2 The list of network- and Internet-related settings appears.
-
-3 Click Proxy.The list of available proxy settings appears.
-
-4 In the Manual Proxy Setup section, set the Use a Proxy Server switch to On.
-
-5 In the Address field, type the IP address.In the Port field, type the port.
-
-6 Click Save; then close the Settings window
+1. Open Settings.Click Network & Internet.
+2. The list of network- and Internet-related settings appears.
+3. Click Proxy.The list of available proxy settings appears.
+4. In the Manual Proxy Setup section, set the Use a Proxy Server switch to On.
+5. In the Address field, type the IP address.In the Port field, type the port.
+6. Click Save; then close the Settings window
