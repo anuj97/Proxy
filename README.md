@@ -8,9 +8,9 @@ Port: 8080
 
 
 #### Proxy for terminal
-	export https_proxy='http://<proxy>:<port>'
-	export http_proxy='http://<proxy>:<port>'
-	export ftp_proxy='http://<proxy>:<port>'
+	export https_proxy=http://<proxy>:<port>
+	export http_proxy=http://<proxy>:<port>
+	export ftp_proxy=http://<proxy>:<port>
 	
 #### Npm
 	npm config set proxy http://<proxy>:<port> 
@@ -30,7 +30,7 @@ In your `.bowerrc` file, make the following changes:
       `"https-proxy":"http://<proxy>:<port>",`
       `"no-proxy":"myserver.mydomain.com"`
     `}`
-
+    
 # Mac
 
 To manually change your Proxy settings, follow these steps:
