@@ -7,18 +7,18 @@ Port: 8080
 
 
 
-#### Proxy for termianl
-	export https_proxy=http://username:password@<proxy>:<port>
-	export http_proxy=http://username:password@<proxy>:<port>
-	export ftp_proxy=http://username:password@<proxy>:<port>
+#### Proxy for terminal
+	export https_proxy='http://<proxy>:<port>'
+	export http_proxy='http://<proxy>:<port>'
+	export ftp_proxy='http://<proxy>:<port>'
 	
 #### Npm
-	npm config set proxy http://username:password@<proxy>:<port> 
-	npm config set https-proxy http://username:password@<proxy>:<port>
+	npm config set proxy http://<proxy>:<port> 
+	npm config set https-proxy http://<proxy>:<port>
 
 
 #### GIT 
-	git config --global http.proxy http://<username>:<password>@<proxy>:<port>
+	git config --global http.proxy http://<proxy>:<port>
 
 #### BOWER
 In your `.bowerrc` file, make the following changes: 
@@ -33,7 +33,7 @@ In your `.bowerrc` file, make the following changes:
 
 # Mac
 
-To manually change your TCP/IP and Proxy settings, follow these steps:
+To manually change your Proxy settings, follow these steps:
 1. Open System Preferences and click the Network panel icon.
 2. The network panel opens, showing all the available interfaces. Click the interface you want to configure (usually Ethernet or Wi-Fi).
 3. Click the Advanced button to view the full manual interface for network settings.
@@ -43,3 +43,20 @@ To manually change your TCP/IP and Proxy settings, follow these steps:
 7. Enter the proxy information as provided by your network administrator.
 8. Click OK to exit advanced setup.
 9. Click Apply to activate and begin using your new network settings
+
+
+# Windows
+
+Setting up proxy in windows:
+
+1 Open Settings.Click Network & Internet.
+
+2 The list of network- and Internet-related settings appears.
+
+3 Click Proxy.The list of available proxy settings appears.
+
+4 In the Manual Proxy Setup section, set the Use a Proxy Server switch to On.
+
+5 In the Address field, type the IP address.In the Port field, type the port.
+
+6 Click Save; then close the Settings window
