@@ -1,6 +1,9 @@
 # Proxy
 
-Proxies working: 172.31.1.3 / 4 / 5 / 6     	
+
+Set proxy in the network settings as shown in the image below .
+![](scr1.png)
+Proxies working: 172.31.1.3 / 6     	
 Port: 8080
 
 # Linux
