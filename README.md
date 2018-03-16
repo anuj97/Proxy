@@ -3,10 +3,18 @@
 
 Set proxy in the network settings as shown in the image below .
 ![](scr1.png)  
-Proxies working: 172.31.1.3 / 6     	
+Proxies working: 172.31.1.3 and 172.31.1.6     	
 Port: 8080
 
-# Linux
+# Easy way to set proxy :
+# Running proxy.sh
+
+- open terminal
+- to set proxy run `.\proxy.sh "3 or 6"`
+- to unset proxy run `.\proxy.sh`
+
+# Manually setting Proxy :
+## Linux
 
 
 
@@ -34,7 +42,7 @@ In your `.bowerrc` file, make the following changes:
       `"no-proxy":"myserver.mydomain.com"`
     `}`
     
-# Mac
+## Mac
 
 To manually change your Proxy settings, follow these steps:
 1. Open System Preferences and click the Network panel icon.
@@ -48,7 +56,7 @@ To manually change your Proxy settings, follow these steps:
 9. Click Apply to activate and begin using your new network settings
 
 
-# Windows
+## Windows
 
 Setting up proxy in windows:
 1. Open Settings.Click Network & Internet.
