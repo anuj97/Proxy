@@ -2,15 +2,15 @@
 
 
 Set proxy in the network settings as shown in the image below .
-![](scr1.png)  
-Proxies working: 172.31.1.3 and 172.31.1.6     	
-Port: 8080
+
+Proxies working: 172.27.16.154 and 172.27.16.15     	
+Port: 3128
 
 # Easy way to set proxy :
 # Running proxy.sh
 
 - open terminal
-- to set proxy run `./proxy.sh "3 or 6"`
+- to set proxy run `./proxy.sh "154 or 15"`
 - to unset proxy run `./proxy.sh`
 
 # Manually setting Proxy :
@@ -63,5 +63,5 @@ Setting up proxy in windows:
 2. The list of network- and Internet-related settings appears.
 3. Click Proxy.The list of available proxy settings appears.
 4. In the Manual Proxy Setup section, set the Use a Proxy Server switch to On.
-5. In the Address field, type the IP address.In the Port field, type the port.
+5. In the Address field, type the IP address. In the Port field, type the port.
 6. Click Save; then close the Settings window
